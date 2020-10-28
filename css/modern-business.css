@@ -20,3 +20,21 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+.portfolio-item .caption .caption-content p {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+  .portfolio-item .caption .caption-content {
+    transition: opacity 0.25s;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    background: rgba(189, 93, 56, 0.9);
+  }
+
+  .portfolio-item:hover img {
+    clip-path: inset(5% 20% 15% 10%);
+  }
+}
